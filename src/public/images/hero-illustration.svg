@@ -1,0 +1,33 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- Hand -->
+    <path d="M200 300 
+             C200 250, 220 220, 250 200 
+             C280 180, 320 200, 320 240
+             C320 280, 280 320, 250 340
+             C220 360, 200 340, 200 300Z" 
+          fill="#FFFFFF" 
+          stroke="#000000" 
+          stroke-width="2"/>
+    
+    <!-- House (isometric) -->
+    <path d="M250 150 
+             L400 250 
+             L400 350
+             L250 250Z" 
+          fill="#FFB800"/>
+    
+    <!-- House side -->
+    <path d="M250 150
+             L400 250
+             L370 270
+             L220 170Z" 
+          fill="#FFD700"/>
+    
+    <!-- Sparkles -->
+    <path d="M420 120L425 110L430 120L425 130Z" fill="#FFD700"/>
+    <circle cx="450" cy="100" r="8" fill="#FFD700"/>
+    
+    <!-- Coins -->
+    <circle cx="460" cy="140" r="15" fill="#FFD700"/>
+    <circle cx="200" cy="380" r="20" fill="#FFD700"/>
+</svg> 

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landhoney - Real Estate Investment Platform</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header-container">
+        <nav class="main-nav">
+            <div class="logo">
+                <a href="/">
+                    <img src="assets/landhoney-logo.png" alt="Landhoney" width="200">
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="/how-it-works">How It Works</a>
+                <a href="/about-us">About Us</a>
+                <a href="/blog">Blog</a>
+                <a href="/list-property">List Property</a>
+                <a href="/support">Support</a>
+                <a href="/sign-up" class="sign-up-btn">Sign Up</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Own Real Assets —<br>Without Hassle</h1>
+                    <p class="hero-subtitle">
+                        Invest in real estate starting with $1, protect your<br>
+                        wealth from inflation, and buy or sell any time.
+                    </p>
+                    <a href="/sign-up" class="cta-button">Sign Up</a>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/yellow-house-hand.png" alt="Hand holding a house illustration">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <img src="/assets/landhoney-logo-black.png" alt="Landhoney" width="150">
+                </div>
+                <div class="footer-social">
+                    <a href="https://twitter.com/landhoney" target="_blank" rel="noopener">
+                        <img src="/assets/x-logo.svg" alt="X (Twitter)" width="20">
+                    </a>
+                    <a href="https://instagram.com/landhoney" target="_blank" rel="noopener">
+                        <img src="/assets/instagram-logo.svg" alt="Instagram" width="20">
+                    </a>
+                    <a href="https://tiktok.com/@landhoney" target="_blank" rel="noopener">
+                        <img src="/assets/tiktok-logo.svg" alt="TikTok" width="20">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-nav">
+                <a href="/about-us">About Us</a>
+                <a href="/blog">Blog</a>
+                <a href="/list-property">List Property</a>
+                <a href="/support">Support</a>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    © 2024 Landhoney. All rights reserved.
+                </div>
+                <div class="footer-legal">
+                    <a href="/privacy">Privacy Policy</a>
+                    <a href="/terms">Terms of Service</a>
+                    <a href="/disclosures">Disclosures</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="modal-overlay" class="modal-overlay hidden"></div>
+    <div id="signup-modal" class="modal hidden" role="dialog" aria-labelledby="modal-title">
+        <div class="modal-content">
+            <div class="modal-decorations">
+                <img src="/assets/Honey Shape 03.png" alt="" class="decoration-top" width="300" height="300">
+                <img src="/assets/Honey Shape 03.png" alt="" class="decoration-bottom" width="120" height="120">
+            </div>
+            <div class="modal-inner">
+                <button type="button" class="modal-close" aria-label="Close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M18 6 6 18"></path>
+                        <path d="m6 6 12 12"></path>
+                    </svg>
+                </button>
+                <div class="modal-text">
+                    <p>We are testing Landhoney with a closed group of early users!</p>
+                    <p>If you'd like to join, share your email:</p>
+                </div>
+                <div class="modal-form">
+                    <input type="email" placeholder="simon@landhoney.io" class="email-input">
+                    <button class="submit-button">Get Early Access</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/modal.js"></script>
+</body>
+</html>
