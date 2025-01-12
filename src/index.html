@@ -11,11 +11,10 @@
         <nav class="main-nav">
             <div class="logo">
                 <a href="/">
-                    <img src="assets/landhoney-logo.png" alt="Landhoney" width="200">
+                    <img src="/assets/landhoney-logo.png" alt="Landhoney" width="200">
                 </a>
             </div>
             <div class="nav-links">
-                <a href="/how-it-works">How It Works</a>
                 <a href="/about-us">About Us</a>
                 <a href="/blog">Blog</a>
                 <a href="/list-property">List Property</a>
@@ -26,21 +25,23 @@
     </header>
 
     <main>
-        <div class="hero">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1>Own Real Assets —<br>Without Hassle</h1>
-                    <p class="hero-subtitle">
-                        Invest in real estate starting with $1, protect your<br>
-                        wealth from inflation, and buy or sell any time.
-                    </p>
-                    <a href="/sign-up" class="cta-button">Sign Up</a>
-                </div>
-                <div class="hero-image">
-                    <img src="assets/yellow-house-hand.png" alt="Hand holding a house illustration">
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Own Real Assets —<br>Without Hassle</h1>
+                        <p class="hero-subtitle">
+                            Invest in real estate starting with $1, protect your<br>
+                            wealth from inflation, and buy or sell any time.
+                        </p>
+                        <a href="#" class="cta-button">Sign Up</a>
+                    </div>
+                    <div class="hero-image">
+                        <img src="/assets/yellow-house-hand.png" alt="" width="400" height="400">
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
     <footer class="footer">
@@ -80,8 +81,9 @@
         </div>
     </footer>
 
+    <!-- Modal -->
     <div id="modal-overlay" class="modal-overlay hidden"></div>
-    <div id="signup-modal" class="modal hidden" role="dialog" aria-labelledby="modal-title">
+    <div id="signup-modal" class="modal hidden" role="dialog">
         <div class="modal-content">
             <div class="modal-decorations">
                 <img src="/assets/Honey Shape 03.png" alt="" class="decoration-top" width="300" height="300">
@@ -98,14 +100,16 @@
                     <p>We are testing Landhoney with a closed group of early users!</p>
                     <p>If you'd like to join, share your email:</p>
                 </div>
-                <div class="modal-form">
-                    <input type="email" placeholder="simon@landhoney.io" class="email-input">
-                    <button class="submit-button">Get Early Access</button>
-                </div>
+                <form id="email-form" class="modal-form">
+                    <input type="email" id="email" placeholder="simon@landhoney.io" class="email-input" required>
+                    <button type="submit" class="submit-button">Get Early Access</button>
+                </form>
             </div>
         </div>
     </div>
 
+    <!-- Scripts -->
     <script src="/js/modal.js"></script>
+    <script src="/js/email-signup.js"></script>
 </body>
 </html>
